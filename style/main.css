@@ -1,0 +1,19 @@
+@font-face {
+    font-family: yekan;
+    src: url('/project/font/Yekan.eot');
+    src: url('/project/font/Yekan.woff');
+    src: url('/project/font/Yekan.woff2');
+    src: url('/project/font/Yekan.ttf');
+}
+
+body {
+    font-family: yekan;
+    direction: rtl;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}

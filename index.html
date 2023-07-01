@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/project/style/main.css">
+    <link rel="stylesheet" href="/project/style/home.css">
+    <link rel="stylesheet" href="/project/js/main.js">
+    <link rel="stylesheet" href="/project/style/animation.css">
+    <link rel="stylesheet" href="/project/style/flexboxgrid.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-right">
+                <a href=""><i class="fa-solid fa-house"></i></a>
+                <a href=""><i class="fa-solid fa-user"></i></a>
+                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+
+            </div>
+            <div class="nav-left">
+                <div class="register">
+                    <i class="fa-solid fa-user-tie"></i>
+                    <a href="#">ثبت نام / ورود</a>
+                </div>
+            </div>
+        </nav>
+
+
+        <section class="slider">
+            <div class="slides">
+                <div class="item  active" id="slide1">
+                    <img src="/project/photo/s1.jpg" alt="" />
+                    <span>کیفیت واقعی اهنگ </span>
+                </div>
+                <div class="item " id='slide2'>
+                    <img src="../project/photo/s2.jpg" alt="">
+                    <span style="right: 40% ; top: 80%; font-size: 3em;">موزیک و احساسات</span>
+                </div>
+                <div class="item " id='slide3'>
+                    <img src="../project/photo/s3.jpg" alt="">
+                    <span>صدا های چند بعدی </span>
+                </div>
+
+            </div>
+            <div class="buttons">
+                <i onclick="setSlide('slide1' , 1)" class="fas fa-circle"></i>
+                <i onclick="setSlide('slide2' , 2)" class="fas fa-circle"></i>
+                <i onclick="setSlide('slide3' , 3)" class="fas fa-circle"></i>
+            </div>
+
+        </section>
+    </header>
+    <main>
+        <section class="product-section">
+            <div class="row">
+                <div class="col-lg-3" col-md-6 col-xs-12>
+                    <div class="shoping-card">
+                        <div class="guitar-img">
+                            <img src="/project/photo/g1.jpg" alt="">
+
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="tittle">
+                            ESP LTD F10
+
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">200 دلار</span>
+
+                            </div>
+                            <div class="left">
+                                <div class="like">
+                               
+                                    <a href=""><i class="fa-sharp fa-solid fa-heart"></i></a>
+                                </div>
+                                <div class="shop-card">
+                                  
+                                    <a href=""><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3" col-md-6 col-xs-12>
+                    <div class="shoping-card">
+                        <div class="guitar-img">
+                            <img src="/project/photo/g2.jpg" alt="">
+                            <span class="offer"  > پیشنهاد ویژه</span>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="tittle">
+                            ESP LTD MD5
+
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">500 دلار</span>
+
+                            </div>
+                            <div class="left">
+                                <div class="like">
+                                    
+                                    <a href=""><i class="fa-sharp fa-solid fa-heart"></i></a>
+                                </div>
+                                <div class="shop-card">
+                                    
+                                    <a href=""><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-3" col-md-6 col-xs-12>
+                    <div class="shoping-card">
+                        <div class="guitar-img">
+                            <img src="/project/photo/g3.jpg" alt="">
+                            <span class="offer"> پیشنهاد ویژه</span>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="tittle">
+                            ESP LTD MN7
+
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">1500 دلار</span>
+
+                            </div>
+                            <div class="left">
+                                <div class="like">
+                                    
+                                    <a href=""><i class="fa-sharp fa-solid fa-heart"></i></a>
+                                </div>
+                                <div class="shop-card">
+                                    
+                                    <a href=""><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+                <div class="col-lg-3" col-md-6 col-xs-12>
+                    <div class="shoping-card">
+                        <div class="guitar-img">
+                            <img src="/project/photo/g4.jpg" alt="">
+
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="tittle">
+                            ESP LTD HV 2
+
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">800 دلار</span>
+
+                            </div>
+                            <div class="left">
+                                <div class="like">
+                                    
+                                    <a href=""><i class="fa-sharp fa-solid fa-heart"></i></a>
+                                </div>
+                                <div class="shop-card">
+                                  
+                                    <a href=""><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+    <script defer src='/project/js/main.js'></script>
+</body>
+
+</html>

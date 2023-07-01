@@ -1,0 +1,238 @@
+header {
+    font-size: 1em;
+
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1em;
+    padding: 15px; 
+    align-items: center;
+    
+
+}
+
+
+header nav .nav-right a {
+    padding: 15px 10px;
+    margin: 5px;
+    font-size: 1.2em;
+    
+
+}
+
+header nav .nav-right a i {
+    color: #023e8a;
+
+}
+
+
+header nav .nav-left .register {
+    border: 1px solid #03045e;
+    padding: 4px 8px;
+    border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -ms-border-radius: 10px ;
+    -o-border-radius: 10px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav .nav-left .register a {
+    color: #023e8a;
+    margin: 0px 10px;
+    font-size: 1em;
+
+}
+
+header nav .nav-left .register i {
+    font-size: 1.2em;
+    color: #023e8a;
+}
+
+/* -------------slider-------------- */
+
+.slider {
+    position: relative;
+    font-size: 1em;
+
+}
+
+.slider .slides {
+    
+}
+
+.slider .slides .item {
+    position: relative;
+    display: none;
+    background-size: cover;
+    
+    
+}
+
+.slider .slides .item img {
+    width: 100%;
+    height: 85vh;
+    
+  
+}
+
+.slider .slides .item span {
+    position: absolute;
+    right: 10%;
+    top: 20%;
+    z-index: 1;
+    font-size: 2.5em;
+    color: #219ebc;
+    
+}
+
+.slider .slides .active {
+    display: block;
+    animation-name: slideInRight ;
+    animation-duration: 0.8s;
+
+
+}
+
+.slider .buttons {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    z-index: 1;
+}
+
+.slider .buttons i {
+    color: rgba(0, 0, 0, 0.5);
+    margin-right: 3px;
+    cursor: pointer;
+    
+}
+
+.slider .buttons i:hover{
+    color: #023e8a;
+}
+
+
+
+
+/* -----------------------product-section------------------- */
+
+
+
+.product-section {
+    padding: 20px 20px;
+    font-size: 1em;
+
+}
+
+.product-section .shoping-card {
+    text-align: center;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.5);
+    margin: 20px 10px;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.product-section .shoping-card .guitar-img {
+    position: relative;
+
+}
+
+.product-section .shoping-card .guitar-img .offer {
+    background-color: #1B6B93;
+    color: white;
+    padding: 0px 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    left: 10px ;
+}
+
+.product-section .shoping-card .guitar-img .stars {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #0079FF;
+
+}
+
+.product-section .shoping-card .tittle {
+
+}
+
+.product-section .shoping-card .buttons {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px 10px;
+
+}
+
+.product-section .shoping-card .buttons .right {
+
+}
+
+.product-section .shoping-card .buttons .right .price {
+    color: #0079FF;
+    font-weight: bold;
+
+}
+
+.product-section .shoping-card .buttons .left  {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 100px;
+
+
+}
+
+.product-section .shoping-card .buttons .left .shop-card {
+
+}
+
+.product-section .shoping-card .buttons .left .shop-card i {
+    bottom: 30px;
+    color: #19A7CE;
+    font-size: 2em;
+
+}
+
+.product-section .shoping-card .buttons .left .shop-card i:hover{
+    font-size: 1.5em;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.product-section .shoping-card .buttons .left .like i {
+    bottom: 30px;
+    color: #19A7CE;
+    font-size: 2em;
+    
+
+
+}
+
+.product-section .shoping-card .buttons .left .like i:hover{
+    font-size: 1.5em;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
